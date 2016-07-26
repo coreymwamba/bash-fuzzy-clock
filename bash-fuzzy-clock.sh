@@ -4,17 +4,14 @@
 #
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=bash-fuzzy-clock
-
-hour=$(date +%H)
-minute=$(date +%M)
-hr=$((10#$hour))
-min=$((10#$minute))
+hr=($(date '+%_H'))
+min=10#$(date '+%M')
 nearly=$"nearly"
 justaft=$"just after"
 oclock=($"o'clock")
 lng=${LANGUAGE:0:2}
-if [[ $(($min % 5)) -gt 0 ]];then
-if [[ $(($min % 5)) -lt 3 ]]; then 
+if [[ $((min % 5)) -gt 0 ]];then
+if [[ $((min % 5)) -lt 3 ]]; then 
 adv=$justaft
 else
 adv=$nearly
@@ -37,34 +34,20 @@ if [[ $min -gt 27 && $min -lt 33 ]]; then
 adj=$"half past"
 case "$lng" in
 de)
-hr=$(($hr + 1))
+hr=$((hr + 1))
 if [[ $hr -eq 24 ]]; then
 hr=0
 fi
 esac
 fi
 if [[ $min -ge 33 ]]; then
-hr=$(($hr + 1))
+hr=$((hr + 1))
 
 if [[ $hr -eq 24 ]]; then
 hr=0
 fi
 fi
-#
-#
-# intentionally blank space
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+
 case $hr in
 1|13)
 th=$"one"
@@ -106,17 +89,12 @@ th=$"midnight"
 th=$"midday"
 esac
 # French and Spanish use an hour declaration all the time
-#
+# Italian does not
 # Most other languages treat one as a singular hour 
 #
 # But this might change if other languages are added.
 # I need to be able to control this better...
-# 
-#
-#
-#
-#
-#
+
 case "$lng" in
 fr|es)
 if [[ $hr -eq 1 || $hr -eq 13 ]]; then
@@ -132,8 +110,6 @@ manner=$oclock
 fi
 fi
 esac
-
-
 
 if [[ $min -ge 3 && $min -le 7 ]]; then
 adj=$"five past"
