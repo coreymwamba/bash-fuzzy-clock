@@ -1,0 +1,127 @@
+# Translation file
+# Copyright (C) 2014
+# This file is distributed under the same license as the bash-fuzzy-clock package.
+# Corey Mwamba <contact.me@coreymwamba.co.uk>, 2014
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bash-fuzzy-clock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-01 06:34+0000\n"
+"PO-Revision-Date: 2014-02-01 12:34+0000\n"
+"Last-Translator: Corey Mwamba\n"
+"Language-Team: as above\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "nearly"
+msgstr "casi"
+
+msgid "just after"
+msgstr "un poco más de"
+
+msgid "o'clock"
+msgstr "las"
+
+msgid "morning"
+msgstr "la mañana"
+
+msgid "afternoon"
+msgstr "la tarde"
+
+msgid "evening"
+msgstr "la tarde"
+
+msgid "night"
+msgstr "la noche"
+
+msgid "half past"
+msgstr "y media"
+
+msgid "one"
+msgstr "una"
+
+msgid "two"
+msgstr "dos"
+
+msgid "three"
+msgstr "tres"
+
+msgid "four"
+msgstr "cuatro"
+
+msgid "five"
+msgstr "cinco"
+
+msgid "six"
+msgstr "seis"
+
+msgid "seven"
+msgstr "siete"
+
+msgid "eight"
+msgstr "ocho"
+
+msgid "nine"
+msgstr "nueve"
+
+msgid "ten"
+msgstr "diez"
+
+msgid "eleven"
+msgstr "once"
+
+msgid "midnight"
+msgstr "medianoche"
+
+msgid "midday"
+msgstr "mediodía"
+
+msgid "hour"
+msgstr "la"
+
+msgid "five past"
+msgstr "y cinco"
+
+msgid "ten past"
+msgstr "y diez"
+
+msgid "quarter past"
+msgstr "y cuarto"
+
+msgid "twenty past"
+msgstr "y veinte"
+
+msgid "twenty-five past"
+msgstr "y veinticinco"
+
+msgid "twenty-five to"
+msgstr "menos vienticinco"
+
+msgid "twenty to"
+msgstr "menos veinte"
+
+msgid "quarter to"
+msgstr "menos cuarto"
+
+msgid "ten to"
+msgstr "menos diez"
+
+msgid "five to"
+msgstr "menos cinco"
+
+msgid "$th $manner\\n"
+msgstr "$manner $th\\n"
+
+msgid "$adj $th $manner\\n"
+msgstr "$manner $th $adj\\n"
+
+msgid "$adv $th $manner\\n"
+msgstr "$adv $manner $th\\n"
+
+msgid "$adv $adj $th $manner\\n"
+msgstr "$adv $manner $th $adj\\n"

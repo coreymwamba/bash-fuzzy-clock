@@ -1,0 +1,168 @@
+# Translation file
+# Copyright (C) 2014
+# This file is distributed under the same license as the bash-fuzzy-clock package.
+# Corey Mwamba <contact.me@coreymwamba.co.uk>, 2014
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bash-fuzzy-clock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-27 13:18+0000\n"
+"PO-Revision-Date: 2014-01-27 13:18+0000\n"
+"Last-Translator: Corey Mwamba\n"
+"Language-Team: as above\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: bash-fuzzy-clock:13
+msgid "nearly"
+msgstr "gleich"
+
+#: bash-fuzzy-clock:14
+msgid "just after"
+msgstr "nach"
+
+#: bash-fuzzy-clock:15
+msgid "o'clock"
+msgstr "Uhr"
+
+#: bash-fuzzy-clock:26
+msgid "morning"
+msgstr "morgens"
+
+#: bash-fuzzy-clock:28
+msgid "afternoon"
+msgstr "nachmittags"
+
+#: bash-fuzzy-clock:30
+msgid "evening"
+msgstr "abends"
+
+#: bash-fuzzy-clock:32
+msgid "night"
+msgstr "abends"
+
+
+#: bash-fuzzy-clock:40
+msgid "half past"
+msgstr "halb"
+
+#: bash-fuzzy-clock:69
+msgid "one"
+msgstr "ein"
+
+#: bash-fuzzy-clock:72
+msgid "two"
+msgstr "zwei"
+
+#: bash-fuzzy-clock:75
+msgid "three"
+msgstr "drei"
+
+#: bash-fuzzy-clock:78
+msgid "four"
+msgstr "vier"
+
+#: bash-fuzzy-clock:81
+msgid "five"
+msgstr "fünf"
+
+#: bash-fuzzy-clock:84
+msgid "six"
+msgstr "sechs"
+
+#: bash-fuzzy-clock:87
+msgid "seven"
+msgstr "sieben"
+
+#: bash-fuzzy-clock:90
+msgid "eight"
+msgstr "acht"
+
+#: bash-fuzzy-clock:93
+msgid "nine"
+msgstr "neun"
+
+#: bash-fuzzy-clock:96
+msgid "ten"
+msgstr "zehn"
+
+#: bash-fuzzy-clock:99
+msgid "eleven"
+msgstr "elf"
+
+#: bash-fuzzy-clock:102 bash-fuzzy-clock:31
+msgid "midnight"
+msgstr "Mitternacht"
+
+#: bash-fuzzy-clock:105 bash-fuzzy-clock:31
+msgid "midday"
+msgstr "Mittag"
+
+#: bash-fuzzy-clock:117
+msgid "hour"
+msgstr "Uhr"
+
+#: bash-fuzzy-clock:126
+msgid "five past"
+msgstr "fünf nach"
+
+#: bash-fuzzy-clock:130
+msgid "ten past"
+msgstr "zehn nach"
+
+#: bash-fuzzy-clock:134
+msgid "quarter past"
+msgstr "viertel nach"
+
+#: bash-fuzzy-clock:138
+msgid "twenty past"
+msgstr "zwanzig nach"
+
+#: bash-fuzzy-clock:142
+msgid "twenty-five past"
+msgstr "fünfundzwanzig nach"
+
+#: bash-fuzzy-clock:146
+msgid "twenty-five to"
+msgstr "fünf nach halb"
+
+#: bash-fuzzy-clock:150
+msgid "twenty to"
+msgstr "zwanzig vor"
+
+#: bash-fuzzy-clock:154
+msgid "quarter to"
+msgstr "viertel vor"
+
+#: bash-fuzzy-clock:158
+msgid "ten to"
+msgstr "zehn vor"
+
+#: bash-fuzzy-clock:162
+msgid "five to"
+msgstr "fünf vor"
+
+#: bash-fuzzy-clock:166
+#, sh-format
+msgid "$th $manner\\n"
+msgstr "$th $manner\\n"
+
+#: bash-fuzzy-clock:169
+#, sh-format
+msgid "$adj $th $manner\\n"
+msgstr "$adj $th $manner\\n"
+
+#: bash-fuzzy-clock:172
+#, sh-format
+msgid "$adv $th $manner\\n"
+msgstr "$adv $th $manner\\n"
+
+#: bash-fuzzy-clock:175
+#, sh-format
+msgid "$adv $adj $th $manner\\n"
+msgstr "$adv $adj $th $manner\\n"
