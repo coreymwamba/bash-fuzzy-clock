@@ -75,7 +75,7 @@ msgstr "dieci"
 msgid "eleven"
 msgstr "undici"
 
-msgid "mezzonotte"
+msgid "midnight"
 msgstr "medianoche"
 
 msgid "midday"
