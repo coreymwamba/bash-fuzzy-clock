@@ -1,7 +1,7 @@
 bashfuzzyclock
 ==============
 
-bash-fuzzy-clock is a natural language or "fuzzy" clock script, written in Bash. Use it in Conky (Linux/BSD) or GeekTool (Mac) configurations as a desktop-agnostic fuzzy clock. Translated to French, German and Spanish.
+bash-fuzzy-clock is a natural language or "fuzzy" clock script, written in Bash. Use it in Conky (Linux/BSD) or GeekTool (Mac) configurations as a desktop-agnostic fuzzy clock. Translated to French, German, Spanish, and Italian.
 
 INSTALL:
 ========
@@ -27,10 +27,6 @@ $ sudo msgfmt de.po -o /usr/share/locale/de/LC_MESSAGES/bash-fuzzy-clock.mo
 $ sudo msgfmt es.po -o /usr/share/locale/es/LC_MESSAGES/bash-fuzzy-clock.mo
 ```
 
-On an Apple computer, you can use GeekTool to display the clock on your 
-screen, using a Shell Geeklet: see 
-<http://www.maclife.com/article/howtos/how_customize_your_desktop_geektool>
-
 USE
 ===
 
@@ -47,13 +43,19 @@ You can use the "m" option to display the general time of day:
 $ bash-fuzzy-clock m
 --> morning 
 ```
+Using Conky, you can set the script to run every minute (or perhaps, if you just want, every five minutes). See <https://github.com/brndnmtthws/conky/wiki> for Conky's wiki.
+
+
+On an Apple computer, you can use GeekTool to display the clock on your 
+screen, using a Shell Geeklet: see 
+<https://lifehacker.com/5834676/build-an-attractive-informative-mac-desktop-with-geektool>
+
 
 WHAT IS A FUZZY CLOCK?
 ======================
 
 Fuzzy clocks display a generalisation of the time in informal or natural 
-language. They only give precise time on the hour and at 
-five-minute intervals from the hour.
+language. They only give precise time on the hour and at five-minute intervals from the hour.
 
 WHY ANOTHER FUZZY CLOCK?
 ========================
