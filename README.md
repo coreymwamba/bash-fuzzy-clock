@@ -25,6 +25,7 @@ have LANGUAGE set in .bashrc (and for Conky, .xinitrc) or
 $ sudo msgfmt fr.po -o /usr/share/locale/fr/LC_MESSAGES/bash-fuzzy-clock.mo
 $ sudo msgfmt de.po -o /usr/share/locale/de/LC_MESSAGES/bash-fuzzy-clock.mo
 $ sudo msgfmt es.po -o /usr/share/locale/es/LC_MESSAGES/bash-fuzzy-clock.mo
+$ sudo msgfmt pt.po -o /usr/share/locale/pt_BR/LC_MESSAGES/bash-fuzzy-clock.mo
 ```
 
 USE
