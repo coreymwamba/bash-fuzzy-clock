@@ -174,43 +174,35 @@ case "$1" in
         fi
 
         if [[ -z "$adv" && -z "$adj" ]]; then
-            echo "1|$adv| |$adj| "
             printf $"$th $manner\n"
         fi
         if [[ -z "$adv" && -n "$adj" ]]; then
             case $lng in
                 pt)
                     if [[ $min -lt 37 ]]; then
-                        echo "2.1 |$adv| |$adj| "
                         printf $"$adj $th $manner\n"
                     else
-                        echo "2.2 |$adv| |$adj| "
                         printf $"$adj $th\n"
                     fi
                 ;;
                 *)
-                echo "2 |$adv| |$adj| "
                 printf $"$adj $th $manner\n"
                 ;;
         esac
         fi
         if [[ -n "$adv" && -z "$adj" ]]; then
-            echo "3 |$adv| |$adj| "
             printf $"$adv $th $manner\n"
         fi
         if [[ -n "$adv" && -n "$adj" ]]; then
             case $lng in
                 pt)
                     if [[ $min -lt 37 ]]; then
-                        echo "4.1 |$adv| |$adj| "
                         printf $"$adv $adj $th $manner\n"
                     else
-                        echo "4.2 |$adv| |$adj| "
                         printf $"$adv $adj $th\n"
                     fi
                 ;;
                 *)
-                    echo "4 |$adv| |$adj| "
                     printf $"$adv $adj $th $manner\n"
                 ;;
             esac
