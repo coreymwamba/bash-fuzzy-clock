@@ -1,0 +1,139 @@
+
+# Translation file
+# Copyright (C) 2014
+# This file is distributed under the same license as the bash-fuzzy-clock package.
+# Corey Mwamba <contact.me@coreymwamba.co.uk>, 2014
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bash-fuzzy-clock\n"
+"Report-Msgid-Bugs-To: https://github.com/mrtheduts"
+"POT-Creation-Date: 2018-09-21 20:26-0300\n"
+"PO-Revision-Date: 2018-09-21 02:11-0300\n"
+"Last-Translator: Eduardo \"mrtheduts\" Moreira\n"
+"Language-Team: as above\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "nearly"
+msgstr "quase"
+
+msgid "just after"
+msgstr ""
+
+msgid "o'clock"
+msgstr "hora(s)"
+
+msgid "morning"
+msgstr "manhã"
+
+msgid "afternoon"
+msgstr "tarde"
+
+msgid "evening"
+msgstr "noite"
+
+msgid "night"
+msgstr "noite"
+
+msgid "half past"
+msgstr "e meia"
+
+msgid "one"
+msgstr "uma"
+
+msgid "two"
+msgstr "duas"
+
+msgid "three"
+msgstr "três"
+
+msgid "four"
+msgstr "quatro"
+
+msgid "five"
+msgstr "cinco"
+
+msgid "six"
+msgstr "seis"
+
+msgid "seven"
+msgstr "sete"
+
+msgid "eight"
+msgstr "oito"
+
+msgid "nine"
+msgstr "nove"
+
+msgid "ten"
+msgstr "dez"
+
+msgid "eleven"
+msgstr "onze"
+
+msgid "midnight"
+msgstr "meia-noite"
+
+msgid "midday"
+msgstr "meio-dia"
+
+msgid "hour"
+msgstr "hora"
+
+msgid "five past"
+msgstr "e cinco"
+
+msgid "ten past"
+msgstr "e dez"
+
+msgid "quarter past"
+msgstr "e quinze"
+
+msgid "twenty past"
+msgstr "e vinte"
+
+msgid "twenty-five past"
+msgstr "e vinte e cinco"
+
+msgid "twenty-five to"
+msgstr "e trinta e cinco"
+
+msgid "twenty to"
+msgstr "vinte pra(s)"
+
+msgid "quarter to"
+msgstr "quinze pra(s)"
+
+msgid "ten to"
+msgstr "dez pra(s)"
+
+msgid "five to"
+msgstr "cinco pra(s)"
+
+# Added two formats to print correctly
+
+msgid "$th $manner\\n"
+msgstr "$th $manner\\n"
+
+msgid "$adj $th $manner\\n"
+msgstr "$th $adj\\n"
+
+msgid "$adj $th\\n"
+msgstr "$adj $th\\n"
+
+msgid "$adv $th $manner\\n"
+msgstr "$adv $th $manner \\n"
+
+msgid "$adv $adj $th\n"
+msgstr "$adv $adj $th\n"
+
+msgid "$adv $adj $th $manner\\n"
+msgstr "$adv $th $adj\\n"
+
+msgid "$adv $th $adj\\n"
+msgstr "$adv $th $adj\\n"
