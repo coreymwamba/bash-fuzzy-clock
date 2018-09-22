@@ -17,7 +17,7 @@ $ tar xf bash-fuzzy-clock.tar.gz
 $ sudo install -v bash-fuzzy-clock.sh -m 0755 /usr/bin/bash-fuzzy-clock
 ```
 
-If you need the French, German, Spanish or Portuguese translations, make sure you 
+If you need the French, German, Spanish, Italian or Portuguese translations, make sure you 
 have LANGUAGE set in .bashrc (and for Conky, .xinitrc) or 
 /etc/locale.conf
 
@@ -25,6 +25,7 @@ have LANGUAGE set in .bashrc (and for Conky, .xinitrc) or
 $ sudo msgfmt fr.po -o /usr/share/locale/fr/LC_MESSAGES/bash-fuzzy-clock.mo
 $ sudo msgfmt de.po -o /usr/share/locale/de/LC_MESSAGES/bash-fuzzy-clock.mo
 $ sudo msgfmt es.po -o /usr/share/locale/es/LC_MESSAGES/bash-fuzzy-clock.mo
+$ sudo msgfmt it.po -o /usr/share/locale/it/LC_MESSAGES/bash-fuzzy-clock.mo
 $ sudo msgfmt pt.po -o /usr/share/locale/pt_BR/LC_MESSAGES/bash-fuzzy-clock.mo
 ```
 
