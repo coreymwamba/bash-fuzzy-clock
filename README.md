@@ -17,7 +17,7 @@ $ tar xf bash-fuzzy-clock.tar.gz
 $ sudo install -v bash-fuzzy-clock.sh -m 0755 /usr/bin/bash-fuzzy-clock
 ```
 
-If you need the French, German, or Spanish translations, make sure you 
+If you need the French, German, Spanish or Portuguese translations, make sure you 
 have LANGUAGE set in .bashrc (and for Conky, .xinitrc) or 
 /etc/locale.conf
 
