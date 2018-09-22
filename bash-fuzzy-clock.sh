@@ -8,9 +8,13 @@ export TEXTDOMAIN=bash-fuzzy-clock
 hr=($(date '+%_H'))
 min=10#$(date '+%M')
 nearly=$"nearly"
-justaft=$"just after"
 oclock=($"o'clock")
-lng="${LANGUAGE:0:2}"
+
+if [[ "${LANGUAGE:0:2}" != "" ]] ; then
+    lng="${LANGUAGE:0:2}"
+elif [[ "${LANG:0:2}" != "" ]] ; then
+    lng="${LANG:0:2}"
+fi
 
 # To my knowledge, there is no natural way to say 
 # "just after four", for example, in brazilian portuguese
@@ -18,8 +22,10 @@ case $lng in
     pt)
         justaft=""
     ;;
+    *)
+        justaft=$"just after"
+    ;;
 esac
-
 if [[ $((min % 5)) -gt 0 ]];then
     if [[ $((min % 5)) -lt 3 ]]; then 
         adv=$justaft
