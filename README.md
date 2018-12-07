@@ -1,7 +1,7 @@
 bashfuzzyclock
 ==============
 
-bash-fuzzy-clock is a natural language or "fuzzy" clock script, written in Bash. Use it in Conky (Linux/BSD) or GeekTool (Mac) configurations as a desktop-agnostic fuzzy clock. Translated to six languages.
+bash-fuzzy-clock is a natural language or "fuzzy" clock script, written in Bash. Use it in Conky, Tint2 (Linux/BSD) or GeekTool (Mac) configurations as a desktop-agnostic fuzzy clock. Translated to six languages.
 
 INSTALL:
 ========
@@ -17,8 +17,8 @@ $ tar xf bash-fuzzy-clock.tar.gz
 $ sudo install -v bash-fuzzy-clock.sh -m 0755 /usr/bin/bash-fuzzy-clock
 ```
 
-If you need the French, German, Spanish, Italian or Portuguese translations, make sure you 
-have LANGUAGE set in .bashrc (and for Conky, .xinitrc) or 
+If you need a translation, make sure you 
+have `LANGUAGE` set in .bashrc (and for Conky, .xinitrc) or 
 /etc/locale.conf
 
 ```
@@ -47,6 +47,7 @@ $ bash-fuzzy-clock m
 ```
 Using Conky, you can set the script to run every minute (or perhaps, if you just want, every five minutes). See <https://github.com/brndnmtthws/conky/wiki> for Conky's wiki.
 
+Using Tint2, you use the executor panel item to run the script. See <https://gitlab.com/o9000/tint2/blob/master/doc/tint2.md#executor> for more details, or just use tint2conf.
 
 On an Apple computer, you can use GeekTool to display the clock on your 
 screen, using a Shell Geeklet: see 
