@@ -1,0 +1,126 @@
+# Translation file
+# Copyright (C) 2014
+# This file is distributed under the same license as the bash-fuzzy-clock package.
+# Corey Mwamba <contact.me@coreymwamba.co.uk>, 2014
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bash-fuzzy-clock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-01 06:34+0000\n"
+"PO-Revision-Date: 2021-05-11 21:16+0200\n"
+"Last-Translator: Jakub Fabijan <animatorzpolski@gmail.com>\n"
+"Language-Team: as above\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+
+msgid "nearly"
+msgstr "preskaŭ"
+
+msgid "just after"
+msgstr "tuj post"
+
+msgid "o'clock"
+msgstr "la"
+
+msgid "morning"
+msgstr "mateno"
+
+msgid "afternoon"
+msgstr "posttagmezo"
+
+msgid "evening"
+msgstr "vespero"
+
+msgid "night"
+msgstr "nokto"
+
+msgid "half past"
+msgstr "kaj duono"
+
+msgid "one"
+msgstr "unua"
+
+msgid "two"
+msgstr "dua"
+
+msgid "three"
+msgstr "tria"
+
+msgid "four"
+msgstr "kvara"
+
+msgid "five"
+msgstr "kvina"
+
+msgid "six"
+msgstr "sesa"
+
+msgid "seven"
+msgstr "sepa"
+
+msgid "eight"
+msgstr "oka"
+
+msgid "nine"
+msgstr "naŭa"
+
+msgid "ten"
+msgstr "deka"
+
+msgid "eleven"
+msgstr "dekunua"
+
+msgid "midnight"
+msgstr "noktmezo"
+
+msgid "midday"
+msgstr "tagmezo"
+
+msgid "hour"
+msgstr "horo"
+
+msgid "five past"
+msgstr "kaj kvin"
+
+msgid "ten past"
+msgstr "kaj dek"
+
+msgid "quarter past"
+msgstr "kaj kvarono"
+
+msgid "twenty past"
+msgstr "kaj dudek"
+
+msgid "twenty-five past"
+msgstr "kaj dudekvin"
+
+msgid "twenty-five to"
+msgstr "dudek kvin antaŭe la"
+
+msgid "twenty to"
+msgstr "dudek antaŭe la"
+
+msgid "quarter to"
+msgstr "kvarono antaŭe la"
+
+msgid "ten to"
+msgstr "dek antaŭe la"
+
+msgid "five to"
+msgstr "kvin antaŭe la"
+
+msgid "$th $manner\\n"
+msgstr "$manner $th\\n"
+
+msgid "$adj $th $manner\\n"
+msgstr "$manner $th $adj\\n"
+
+msgid "$adv $th $manner\\n"
+msgstr "$adv$manner $th\\n"
+
+msgid "$adv $adj $th $manner\\n"
+msgstr "$adv$manner $th $adj\\n"
