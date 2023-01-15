@@ -8,7 +8,7 @@ INSTALL:
 
 If you're on Arch Linux you can install this from the AUR:
 
-<https://aur.archlinux.org/packages/bash-fuzzy-clock/>
+<https://aur.archlinux.org/packages/bash-fuzzy-clock-git/>
 
 If not, from a terminal:
 
