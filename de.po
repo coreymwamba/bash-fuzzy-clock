@@ -125,7 +125,7 @@ msgstr "zwanzig nach"
 
 #: bash-fuzzy-clock:142
 msgid "twenty-five past"
-msgstr "fünfundzwanzig nach"
+msgstr "fünf vor halb"
 
 #: bash-fuzzy-clock:146
 msgid "twenty-five to"
